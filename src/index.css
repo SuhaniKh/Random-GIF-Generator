@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Background  */
+.background {
+  background-image: radial-gradient(circle at center center, #fdfdfd, #d3ddef), repeating-radial-gradient(circle at center center, #fdfdfd, #edf5ff, 32px, transparent 64px, transparent 32px);
+background-blend-mode: multiply;
+background-color: #d3ddef;
+}
